@@ -46,9 +46,9 @@ package week2.assignments;
 			//Click on the "Create Account" button.
 			driver.findElement(By.xpath("//a[contains(text(),'Create Account')]")).click();
 			//Enter an account name.
-			driver.findElement(By.xpath("//input[@id='accountName']")).sendKeys("Poornima");
+			driver.findElement(By.xpath("//input[@id='accountName']")).sendKeys("Poorni");
 			//Enter a description as "Selenium Automation Tester."
-			driver.findElement(By.xpath("//textarea[@name='description']")).sendKeys("Selenium Automation Tester");
+			driver.findElement(By.xpath("//textarea[@name='description']")).sendKeys("Selenium Automation Tester2");
 			//// locate the industry dropdown
 		WebElement indDD =	driver.findElement(By.xpath("//select[contains(@class,'inputBox')]"));
 		//instantiate the select class
